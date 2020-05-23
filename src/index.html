@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Covid-19</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+    
+</head>
+<body>
+  
+  <aside id="left-panel" class="left-panel">
+    <nav class="navbar navbar-expand-sm navbar-default">
+
+        <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="./"><img id="logo" alt="Logo"></a>
+            <a class="navbar-brand hidden" href="./"><img id="logo" alt="Logo"></a>
+        </div>
+
+        <div id="main-menu" class="main-menu collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <h3 class="menu-title">Indonesia</h3><!-- /.menu-title -->
+                <li id="c" class="active">
+                    <a id="chart" href="#"> <i class="menu-icon fas fa-chart-bar"></i>Data Grafik </a>
+                </li>
+                <li id="d">
+                    <a id="tabel" href="#"> <i class="menu-icon fa fa-table"></i>Data Tabel </a>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+  </aside><!-- /#left-panel -->
+
+
+
+<!-- Right Panel -->
+<div id="right-panel" class="right-panel">
+    <chart-elemen id="a"></chart-elemen>
+    <tabel-elemen id="b" style="display: none;"></tabel-elemen>
+</div>
+
+
+</body>
+</html>
